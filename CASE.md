@@ -1,19 +1,19 @@
 # Use case.
 
-La société Mirow, qui héberge actuellement son site web chez AWS sur un seul serveur EC2 a de gros problèmes de montée en charge. Les soldes arrivants, l'equipe de devops doit changer l'architecture du site pour le rendre plus scalable.
+La société Mirow, qui héberge actuellement son site web chez AWS sur un seul serveur EC2 a de gros problèmes de montée en charge. Les soldes arrivants, l'équipe de devops doit changer l'architecture du site pour le rendre plus scalable.
 
 Le site web de Mirow est basique. Une API utilisant PHP 5, et un front-end utilisant VueJS. 
 
-L'API utilise une base de données sqlite en local sur le serveur EC2 actuellement, mais est compatible avec Mysql, Postgres, ou DynamoDB. Cette base de données permet uniquement de stocker des informations sur les comptes utilisateurs, et les differents produits en vente sur le site. 
+L'API utilise une base de données sqlite en local sur le serveur EC2 actuellement, mais est compatible avec Mysql, Postgres, ou DynamoDB. Cette base de données permet uniquement de stocker des informations sur les comptes utilisateurs, et les différents produits en vente sur le site. 
 
-Dans le cadre du projet d'amelioration du site, une feature de tracking des actions va etre mise en place
+Dans le cadre du projet d'amélioration du site, une feature de tracking des actions va être mise en place
 
 L'api est aussi disponible sous forme d'une image docker, mais celle-ci n'est pas encore utilisée.
 
 
 #### Quel serait ton choix d'architecture pour ce projet d'amelioration des performances ?
 ```
-Attentes: une description de la nouvelle architecture, la plus complete possible. Le projet est une simple modernisation de l'architecture. L'utilisation de services AWS est privilegiée. Un schéma est aussi possible.
+Attentes: une description de la nouvelle architecture, la plus complète possible. Le projet est une simple modernisation de l'architecture. L'utilisation de services AWS est privilégiée. Un schéma est aussi possible.
 
 
 
