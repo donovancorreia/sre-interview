@@ -13,11 +13,11 @@ L'api est aussi disponible sous forme d'une image docker, mais celle-ci n'est pa
 
 #### Quel serait ton choix d'architecture pour ce projet d'amelioration des performances ?
 ```
-Attentes: une description de la nouvelle architecture, la plus complète possible. Le projet est une simple modernisation de l'architecture. L'utilisation de services AWS est privilégiée. Un schéma est aussi possible.
-
-
+Attentes: une description de la nouvelle architecture, la plus complète possible. Le projet est une simple modernisation de l'architecture. 
+L'utilisation de services AWS est privilégiée. Un schéma est aussi possible, ou un script terraform
 
 ```
+
 
 #### Quel serait ton choix de technologie pour stocker les futures données de tracking ?
 ```
