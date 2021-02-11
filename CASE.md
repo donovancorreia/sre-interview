@@ -17,14 +17,36 @@ Attentes: une description de la nouvelle architecture, la plus complète possibl
 L'utilisation de services AWS est privilégiée. Un schéma est aussi possible, ou un script terraform
 
 ```
+I will try to explain as clear as possible with my knowledge.
 
+First, We need to separate the database from the frontend. That means migrating it, let's choose DynamoDB as we are going to Amazon. 
+
+Then, we need to dockerise the front end to be able to use ECS (as the API is already dockerised) (We can of course install Docker on a EC2 instance)
+
+A load balancer will be required to increase the performances.
+
+I made 2 schemes (one with EC2 and another with ECS, depending on the dockerisation of the app or not)
+
+I will be honest and tell you that I'm new with Terraform so I only documented myself on how to use it, how to provision things so I tried directly with many trainings.
+
+I did that using https://medium.com/avmconsulting-blog/how-to-deploy-a-dockerised-node-js-application-on-aws-ecs-with-terraform-3e6bceb48785
+
+and 
+
+https://medium.com/swlh/deploy-aws-lambda-and-dynamodb-using-terraform-6e04f62a3165
+
+So I won't copy paste the code they provided on the trainings because it's clearly not mine but at least you have an idea of what I learnt and what I can do.
+
+For the tracking feature, I don't know what to use.
+
+```
 
 #### Quel serait ton choix de technologie pour stocker les futures données de tracking ?
 ```
-
+As mentioned above, I don't know what to use for the tracking feature, and I don't really know how sensitive the data can be so I cannot recommand something relevant.
 ```
 
 ####  Quel serait ta solution de CI/CD idéale pour automatiser les deploiements de cette nouvelle infrastructure (Coté applicatif) ?
 ```
-
+I used to use Gitlab and it includes Gitlab CI so why not ?
 ```
